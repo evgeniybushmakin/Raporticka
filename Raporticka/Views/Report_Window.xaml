@@ -1,0 +1,13 @@
+﻿<Window x:Class="Raporticka.Views.Report_Window"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Raporticka"
+        mc:Ignorable="d"
+        Title="Report_Window" Height="450" Width="800" Closing="Window_Closing">
+    <Grid>
+        <Button Content="Создать группу" FontSize="40" FontWeight="Bold" HorizontalAlignment="Left" Width="400" Click="Button_Click_1"/>
+        <Button Content="Редактировать" FontSize="40" FontWeight="Bold" HorizontalAlignment="Right" Width="400" Click="Button_Click"/>
+    </Grid>
+</Window>
